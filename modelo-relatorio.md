@@ -1,4 +1,4 @@
-# git branch -M main
+# Relatório de Implantação de Serviços AWS
 
 Data: 21/06/2023
 Empresa: Abstergo Industries
@@ -11,7 +11,7 @@ Este relatório apresenta o processo de implementação de ferramentas AWS na em
 O projeto de implementação de ferramentas foi dividido em 3 etapas, cada uma com seus objetivos específicos. A seguir, serão descritas as etapas do projeto:
 
 Etapa 1: 
-- EC2 - Elastic Compute Cloud
+### EC2 - Elastic Compute Cloud
 A principal finalidade do EC2 é oferecer uma plataforma flexível para executar aplicativos e cargas de trabalho em um ambiente de computação em nuvem. Ele permite que os usuários criem, configurem e dimensionem rapidamente instâncias de servidores virtuais conforme a demanda, sem a necessidade de investimentos antecipados em hardware físico.
 - Eliminação de investimentos em hardware: Com o EC2, não há necessidade de adquirir e manter servidores físicos para executar os aplicativos da empresa. Isso reduz significativamente os custos iniciais de infraestrutura, como a compra de hardware, armazenamento e resfriamento.
 
@@ -24,7 +24,7 @@ A principal finalidade do EC2 é oferecer uma plataforma flexível para executar
 - Gerenciamento simplificado: O EC2 oferece recursos de automação e gerenciamento simplificado por meio do uso de imagens de máquina virtual (AMI), scripts de inicialização, políticas de escalabilidade e integração com outras ferramentas da AWS. Isso ajuda a reduzir o esforço e o tempo gasto na configuração e manutenção dos servidores, resultando em economia de custos operacionais.
 
 Etapa 2: 
-- Amazon EC2 Auto Scaling
+### Amazon EC2 Auto Scaling
 O principal foco do Amazon EC2 Auto Scaling é permitir que você dimensione automaticamente a capacidade do seu grupo de instâncias EC2 de acordo com a demanda. Ele ajuda a garantir que você tenha capacidade suficiente para lidar com o tráfego e a carga de trabalho, ao mesmo tempo em que evita a alocação excessiva de recursos ociosos.
 
 - Redução de custos operacionais: Com o Auto Scaling, a empresa pode configurar políticas para aumentar ou diminuir automaticamente o número de instâncias do EC2 com base nas métricas de utilização, como a carga da CPU, o tráfego de rede ou outras métricas personalizadas. Isso permite que a capacidade seja ajustada sob demanda, evitando a necessidade de manter instâncias ociosas. Dessa forma, os custos operacionais são reduzidos, uma vez que a capacidade é dimensionada de acordo com a demanda real.
@@ -37,7 +37,7 @@ O principal foco do Amazon EC2 Auto Scaling é permitir que você dimensione aut
 
 
 Etapa 3:
-- CloudFront
+### CloudFront
 O CloudFront é um serviço de entrega de conteúdo (CDN - Content Delivery Network). Ele é projetado para fornecer uma entrega de conteúdo de alta velocidade e baixa latência para usuários finais em todo o mundo.
 O objetivo principal do CloudFront é reduzir a latência e melhorar o desempenho da entrega de conteúdo, como páginas da web, imagens, vídeos, arquivos de áudio e outros recursos estáticos e dinâmicos. Ele faz isso distribuindo esses recursos em servidores de borda localizados estrategicamente em vários locais ao redor do mundo.
 
